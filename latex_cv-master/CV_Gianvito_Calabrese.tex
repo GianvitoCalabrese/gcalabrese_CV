@@ -1,0 +1,99 @@
+\documentclass{muratcan_cv}
+\usepackage{enumitem}
+
+% !TeX program = lualatex
+
+\setname{Gianvito}{Calabrese}
+\setaddress{Avezzano/Italy}
+\setmobile{(+39)3349499532}
+\setmail{gcalabrese296@gmail.com}
+\setposition{Work Student} %ignored for now
+\setlinkedinaccount{https://www.linkedin.com/in/gianvito-calabrese/} %you can play with color of the template (red is also nice..)
+\setgithubaccount{https://github.com/GianvitoCalabrese} %you can play with color of the template (red is also nice..)
+\setthemecolor{red} %you can play with color of the template (red is also nice..)
+
+\begin{document}
+%Set variables
+%You can add sections, texts, explanations just by copying the style below. Replace the dummy texts "\lipsum[1][x-x]\par" with actual texts.
+%Create header
+\headerview
+\vspace{1ex}
+%Sections
+%
+% Summary
+\addblocktext{Summary}{%
+I was born the 3rd of September 1992 in Bari where I spent my first 26 years. Afterwards I have settled in various places in Italy, everytime moved by the aim of better growth opportunities. I am a dedicated, creative and proactive physicist with three years job experience in the semiconductor related applications. I have designed novel devices and carried out experiments as academic technologist. I possess excellent analytical and communications skills and this allowed me to successfully move from university to industry in the role of yield enhancement engineer. I have spent my life always looking for opportunities to utilize my technical skills in a challenging working environment and become a valuable asset to the organization I work for.
+{}}
+%
+%Education
+\section{Education} 
+    \datedexperience{University of Bari}{2011-2014} 
+    \explanation{B.S in Physics} \\ [0.05cm]
+     \explanationdetail{\coloredbullet\ % 
+     Analog electronics, NIM modules, Theoretical Physics, Advanced
+     Math.
+     }
+    \datedexperience{University of Bari}{2014-2017} 
+    \explanation{M.S in Applied and Condensed Matter Physics} \\ [0.05cm]
+    \explanationdetail{\coloredbullet\ %
+      Material properties, Optoelectronic, Optical instruments, Semiconductors, Lasers, Digital electronics.
+     }
+
+% Experience
+\section{Experience}
+    %
+    \datedexperience{IT Consultant}{Jen 2018 - Oct 2018    (Milan/Italy) } 
+    \explanation{Exprivia S.p.a.} \\ [0.05cm]
+    %
+    \datedexperience{PhD student in Physics Engineering}{Nov 2018 - Dec 2019    (Como/Italy)} 
+    \explanation{L-NESS Politecnico di Milano} 
+    \begin{itemize}[noitemsep,topsep=0pt]
+     \item \small Design and Fabrication of Graphene FET via eBeam Lithography. 
+     \item Device Electrical Measurements and Characterization.
+    \end{itemize} 
+    %
+    \datedexperience{Ext Manufacturing Yield Engineer}{Jen 2020 - on going    (Avezzano/Italy)} 
+    \explanation{ON Semiconductor}
+	 \begin{itemize}[noitemsep,topsep=0pt]
+	\item \small Statistical analysis of wafer level probe data for yield enhancement purpose.
+	\item Coordination and cooperation of the manufacturing process improvement activities at supplier level.
+	\item Support on the production material management operations. 
+	\item Basics of Product Engineering. 
+	\end{itemize} 
+    
+\vspace{3ex}
+% Skills
+\section{Skills}
+    %
+    \newcommand{\skillone}{\createskill{Software}{\textbf{\emph{Experienced:}} \ \  Spotfire Exensio  \cpshalf \ \ JMP \ \ \textbf{\emph{Familiar:}} \ \  Orcad}}
+    %
+    \newcommand{\skilltwo}{\createskill{Programming Language}{\textbf{\emph{Familiar:}} \ \  Python \cpshalf \ \ SQL \ \cpshalf \ \ bash  \ \ \textbf{\emph{Occasional:}} \ \ C/C++ \cpshalf \ \ Mathematica}}
+    %
+    \newcommand{\skillthree}{\createskill{Operating System}{ Windows  \cpshalf \ \ GNU/Linux}}
+    %
+    \newcommand{\skillfour}{\createskill{Languages}{\textbf{\emph{Native:}} \ \  Italian \ \ \textbf{\emph{Fluent:}} \ \ English (*) }}
+    %
+    \newcommand{\skillfive}{\createskill{Driving License}{B}}
+    \createskills{\skillone, \skilltwo, \skillthree, \skillfour, \skillfive}
+%
+% Experience
+\section{Extra}
+    \newcommand{\extraone}{%
+   (*) Graded as B2 - based on TOEIC, Listening and Reading Test (27/09/2018)
+    }
+    %
+    \newcommand{\extratwo}{%
+    \lipsum[1][9-10]\par %replace this part with actual text
+    }
+    %
+    \newcommand{\extrathree}{%
+    \lipsum[1][11-12]%replace this part with actual text
+    }
+    %
+    \newcommand{\listofextras}{\extraone}
+    %
+    \createbullets{\listofextras}
+%
+%Footnote
+\createfootnote
+\end{document}
