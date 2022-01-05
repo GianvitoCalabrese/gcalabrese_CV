@@ -34,7 +34,7 @@ body {
 }
 
 .resume .resume_left {
-  width: 280px;
+  width: 300px;
   background: #0bb5f4;
 }
 
@@ -55,6 +55,7 @@ body {
 .resume .title {
   margin-bottom: 20px;
 }
+
 
 .resume .resume_left .bold {
   color: #fff;
@@ -144,6 +145,11 @@ body {
   margin-bottom: 3px;
 }
 
+.resume_map{
+  margin-left: -10px;
+  margin-bottom: 20px;
+}
+
 .resume .resume_right {
   width: 520px;
   background: #fff;
@@ -231,4 +237,21 @@ body {
 
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
+}
+
+
+.button {
+  border-radius: 2px;
+}
+
+.button a {
+  padding: 8px 12px;
+  border: 1px solid #ED2939;
+  border-radius: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #ffffff; 
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;  
 }
